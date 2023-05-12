@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #2d2d2d;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roobert", sans-serif;
+    font-size: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+select,
+textarea,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+/* ==================== Common ==================== */
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    --height: 58px;
+    min-width: 175px;
+    height: var(--height);
+    line-height: var(--height);
+    background: #f7d047;
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 1.9rem;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* ==================== Header ==================== */
+.header {
+    padding: 30px 0;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    margin-left: 72px;
+}
+
+.navbar__list {
+    display: flex;
+}
+
+.header-action__login,
+.navbar__link {
+    display: inline-block;
+    padding: 18px;
+    font-size: 1.6rem;
+    line-height: 1.12;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.navbar__link::after {
+    content: attr(title);
+    display: block;
+    font-weight: 500;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.navbar__link:hover {
+    font-weight: 500;
+}
+
+.header-action {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.header-action__book {
+    --height: 54px;
+    min-width: 156px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-color: var(--text-color);
+    color: #F2EDE6;
+}
