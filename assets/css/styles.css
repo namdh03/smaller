@@ -3,6 +3,8 @@
 }
 
 :root {
+    --primary-color: #018294;
+    --secondary-color: #f7d047;
     --text-color: #2d2d2d;
 }
 
@@ -37,6 +39,7 @@ button {
 
 .btn {
     --height: 58px;
+    display: inline-block;
     min-width: 175px;
     height: var(--height);
     line-height: var(--height);
@@ -55,6 +58,7 @@ button {
 /* ==================== Header ==================== */
 .header {
     padding: 30px 0;
+    background: #F2EDE6;
 }
 
 .header__inner {
@@ -77,20 +81,11 @@ button {
     font-size: 1.6rem;
     line-height: 1.12;
     color: var(--text-color);
-    text-align: center;
 }
 
-.navbar__link::after {
-    content: attr(title);
-    display: block;
-    font-weight: 500;
-    height: 0;
-    overflow: hidden;
-    visibility: hidden;
-}
-
+.header-action__login:hover,
 .navbar__link:hover {
-    font-weight: 500;
+    color: var(--primary-color);
 }
 
 .header-action {
@@ -106,5 +101,5 @@ button {
     font-size: 1.6rem;
     font-weight: 400;
     background-color: var(--text-color);
-    color: #F2EDE6;
+    color: #f2ede6;
 }
