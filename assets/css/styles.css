@@ -107,6 +107,7 @@ button {
     color: var(--text-color);
 }
 
+.footer__navbar-link:hover,
 .header-action__login:hover,
 .navbar__link:hover {
     color: var(--secondary-color);
