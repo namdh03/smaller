@@ -622,6 +622,7 @@ button {
 .footer__brand-list {
     margin-top: 50px;
     display: flex;
+    align-items: center;
     column-gap: 94px;
 }
 
@@ -705,5 +706,6 @@ button {
 .footer__action {
     margin-left: auto;
     display: flex;
+    align-items: center;
     column-gap: 18px;
 }
