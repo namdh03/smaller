@@ -137,7 +137,7 @@ export default {
                 <!-- Navbar -->
                 <div class="footer__navigation">
                     <!-- Footer logo -->
-                    <a href="#!">
+                    <a href="/">
                         <img
                             src="./assets/icons/logo.svg"
                             alt="Smaller"
