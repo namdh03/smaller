@@ -8,7 +8,7 @@ export default {
             <div class="container">
                 <div class="header__inner">
                     <!-- Header logo -->
-                    <a href="/">
+                    <a href="./">
                         <img
                             src="./assets/icons/logo.svg"
                             alt="Smaller"
