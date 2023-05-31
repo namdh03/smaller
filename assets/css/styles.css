@@ -80,7 +80,7 @@ button {
 }
 
 /* ==================== Header ==================== */
-.header {
+#header {
     padding: 30px 0;
     background: #f2ede6;
 }
@@ -603,7 +603,7 @@ button {
 }
 
 /* ==================== Footer ==================== */
-.footer {
+#footer {
     background: #f2ede6;
     padding: 362px 0 86px;
 }
