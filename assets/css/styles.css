@@ -472,13 +472,23 @@ button {
 }
 
 /* ==================== Pricing ==================== */
-.price {
+#price {
     padding: 140px 0 503px;
     background-color: var(--primary-color);
 }
 
+#price.price--pricing-page {
+    padding: 70px 0 150px;
+    background: #f2ede6;
+}
+
 .price__inner {
     position: relative;
+}
+
+#price.price--pricing-page .price__desc,
+#price.price--pricing-page .price__heading {
+    color: var(--text-color);
 }
 
 .price__desc {
@@ -495,6 +505,10 @@ button {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
+}
+
+#price.price--pricing-page .price__list {
+    position: relative;
 }
 
 .price-item--active {
@@ -606,6 +620,10 @@ button {
 #footer {
     background: #f2ede6;
     padding: 362px 0 86px;
+}
+
+#footer.price--pricing-page {
+    padding-top: 100px;
 }
 
 .footer__heading {
