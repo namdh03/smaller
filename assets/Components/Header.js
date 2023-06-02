@@ -9,7 +9,7 @@ export default {
                 <div class="container">
                     <div class="header__inner">
                         <!-- Header logo -->
-                        <a href="#!">
+                        <a href="./">
                             <img
                                 src="./assets/icons/logo.svg"
                                 alt="Smaller"
@@ -21,7 +21,7 @@ export default {
                     <nav class="navbar">
                         <ul class="navbar__list">
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Product</a>
+                                <a href="./product.html" class="navbar__link">Product</a>
                             </li>
                             <li class="navbar__item">
                                 <a href="#!" class="navbar__link">Pricing</a>
