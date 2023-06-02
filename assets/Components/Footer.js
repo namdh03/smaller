@@ -135,16 +135,16 @@ export default {
                         </figure>
                     </section>
 
-                    <!-- Navbar -->
-                    <div class="footer__navigation">
-                        <!-- Footer logo -->
-                        <a href="#!">
-                            <img
-                                src="./assets/icons/logo.svg"
-                                alt="Smaller"
-                                class="footer__logo"
-                            />
-                        </a>
+                <!-- Navbar -->
+                <div class="footer__navigation">
+                    <!-- Footer logo -->
+                    <a href="./">
+                        <img
+                            src="./assets/icons/logo.svg"
+                            alt="Smaller"
+                            class="footer__logo"
+                        />
+                    </a>
 
                         <!-- Footer navbar -->
                         <navbar class="footer__navbar">

@@ -17,26 +17,26 @@ export default {
                             />
                         </a>
 
-                        <!-- Header navbar -->
-                        <nav class="navbar">
-                            <ul class="navbar__list">
-                                <li class="navbar__item">
-                                    <a href="#!" class="navbar__link">Product</a>
-                                </li>
-                                <li class="navbar__item">
-                                    <a href="#!" class="navbar__link">Pricing</a>
-                                </li>
-                                <li class="navbar__item">
-                                    <a href="#!" class="navbar__link">Contact us</a>
-                                </li>
-                                <li class="navbar__item">
-                                    <a href="#!" class="navbar__link">Blog</a>
-                                </li>
-                                <li class="navbar__item">
-                                    <a href="#!" class="navbar__link">About Us</a>
-                                </li>
-                            </ul>
-                        </nav>
+                    <!-- Header navbar -->
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Product</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Pricing</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Contact us</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Blog</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">About Us</a>
+                            </li>
+                        </ul>
+                    </nav>
 
                         <!--Header action -->
                         <div class="header-action">
