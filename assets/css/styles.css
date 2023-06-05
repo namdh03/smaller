@@ -54,6 +54,19 @@ button {
     color: var(--text-color);
 }
 
+.btn--secondary {
+    --height: 62px;
+    display: inline-block;
+    min-width: 158px;
+    height: var(--height);
+    line-height: var(--height);
+    background: #018294;
+    font-weight: 500;
+    font-size: 1.9rem;
+    text-align: center;
+    color: #ffffff;
+}
+
 .btn:hover {
     opacity: 0.9;
 }

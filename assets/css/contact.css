@@ -69,17 +69,9 @@
 }
 
 .contact__form-submit {
-    --height: 62px;
     margin-top: 16px;
-    min-width: 158px;
-    height: var(--height);
     outline: transparent;
     border: transparent;
-    background: #018294;
-    font-weight: 500;
-    font-size: 1.9rem;
-    line-height: var(--height);
-    color: #ffffff;
 }
 
 .contact__form-submit:hover {
