@@ -1,0 +1,28 @@
+.err-page {
+    display: flex;
+    min-height: 100vh;
+    background: #f2ede6;
+}
+
+.err-page__inner {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.err-page__heading {
+    font-weight: 500;
+    font-size: 3.8rem;
+    line-height: 1.16;
+    color: var(--text-color);
+}
+
+.err-page__img {
+    margin-top: 30px;
+    user-select: none;
+}
+
+.err-page__btn {
+    margin-top: 20px;
+}
