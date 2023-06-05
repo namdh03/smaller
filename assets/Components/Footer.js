@@ -165,7 +165,7 @@ export default {
                                     </a>
                                 </li>
                                 <li class="footer__navbar-item">
-                                    <a href="#!" class="footer__navbar-link">
+                                    <a href="./contact.html" class="footer__navbar-link">
                                         Contact us
                                     </a>
                                 </li>
