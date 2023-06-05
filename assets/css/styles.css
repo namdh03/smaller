@@ -97,6 +97,13 @@ button {
     color: #ffffff;
 }
 
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
 /* ==================== Header ==================== */
 #header {
     padding: 30px 0;
