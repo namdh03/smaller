@@ -1,0 +1,59 @@
+.forthcoming {
+    display: flex;
+    min-height: 100vh;
+    background: #f2ede6;
+}
+
+.forthcoming__inner {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forthcoming__heading {
+    font-weight: 600;
+    font-size: 7.8rem;
+    line-height: 1.13;
+    letter-spacing: 0.2em;
+    color: #018294;
+}
+
+.forthcoming__desc {
+    margin-top: 20px;
+    width: 670px;
+    font-size: 1.8rem;
+    line-height: 1.2;
+    text-align: center;
+    color: #676562;
+}
+
+.forthcoming__form {
+    margin-top: 40px;
+}
+
+.forthcoming__form-group {
+    position: relative;
+}
+
+.forthcoming__form-input {
+    padding: 17px;
+    min-width: 448px;
+    outline: transparent;
+    border: 1px solid #018294;
+    border-radius: 99px;
+    background-color: transparent;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: #676562;
+}
+
+.forthcoming__form-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    outline: none;
+    border: none;
+    border-radius: 99px;
+    cursor: pointer;
+}
