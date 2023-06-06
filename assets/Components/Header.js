@@ -30,7 +30,7 @@ export default {
                                 <a href="./contact.html" class="navbar__link">Contact us</a>
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Blog</a>
+                                <a href="./blog.html" class="navbar__link">Blog</a>
                             </li>
                             <li class="navbar__item">
                                 <a href="#!" class="navbar__link">About Us</a>
