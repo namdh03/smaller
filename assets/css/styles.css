@@ -651,6 +651,10 @@ button {
     padding-top: 100px;
 }
 
+#footer.product--product-page {
+    padding-top: 100px;
+}
+
 .footer__heading {
     margin: 0 auto;
     width: 875px;
