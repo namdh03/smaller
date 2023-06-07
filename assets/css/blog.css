@@ -35,7 +35,6 @@
     margin-top: 20px;
     border-radius: 10px;
     transition: all ease 0.25s;
-    cursor: pointer;
 }
 
 .blog__item:hover {
