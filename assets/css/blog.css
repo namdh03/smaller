@@ -43,18 +43,18 @@
     box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
 }
 
-/* .blog__item:hover .blog__item-content {
-    transform: translateX(15px);
-} */
-
 .blog__item-img {
     width: 100%;
     border-radius: 10px;
 }
 
 .blog__item-content {
-    padding: 20px 10px;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     transition: all ease 0.25s;
 }
 
@@ -85,5 +85,4 @@
 .blog__btn {
     outline: transparent;
     border: transparent;
-    cursor: pointer;
 }

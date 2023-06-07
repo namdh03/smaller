@@ -1,0 +1,5 @@
+tắt cuspointer
+sửa thẻ
+làm giữa đoạn chữ của từng item
+
+bên product sửa lại thẻ 
