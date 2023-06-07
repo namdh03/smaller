@@ -2,6 +2,7 @@
 @import url(./forthcoming.css);
 @import url(./contact.css);
 @import url(./product.css);
+@import url(./blog.css);
 
 * {
     box-sizing: border-box;
@@ -650,10 +651,11 @@ button {
 #footer {
     background: #f2ede6;
     padding-top: 100px;
+    padding-bottom: 86px;
 }
 
 #footer.footer--main-page {
-    padding: 362px 0 86px;
+    padding-top: 362px;
 }
 
 .footer__heading {
