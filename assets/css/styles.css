@@ -57,6 +57,10 @@ button {
     color: var(--text-color);
 }
 
+.btn:hover {
+    opacity: 0.9;
+}
+
 .btn--secondary {
     --height: 62px;
     display: inline-block;
@@ -70,8 +74,9 @@ button {
     color: #ffffff;
 }
 
-.btn:hover {
+.btn--secondary:hover {
     opacity: 0.9;
+    cursor: pointer;
 }
 
 .section-heading {
@@ -644,15 +649,11 @@ button {
 /* ==================== Footer ==================== */
 #footer {
     background: #f2ede6;
+    padding-top: 100px;
+}
+
+#footer.footer--main-page {
     padding: 362px 0 86px;
-}
-
-#footer.price--pricing-page {
-    padding-top: 100px;
-}
-
-#footer.product--product-page {
-    padding-top: 100px;
 }
 
 .footer__heading {
