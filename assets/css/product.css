@@ -71,7 +71,7 @@
     font-weight: 500;
     font-size: 2rem;
     line-height: 1.2;
-    color: #2d2d2d;
+    color: var(--text-color);
 }
 
 .product__list {
@@ -108,7 +108,7 @@
     font-size: 1.9rem;
     line-height: 1;
     color: #ffffff;
-    background: #018294;
+    background: var(--secondary-color);
     visibility: hidden;
     transition: all ease 0.3s;
 }
@@ -138,7 +138,7 @@
     font-weight: 500;
     font-size: 2rem;
     line-height: 1.2;
-    color: #2d2d2d;
+    color: var(--text-color);
 }
 
 .product__item-rate {
