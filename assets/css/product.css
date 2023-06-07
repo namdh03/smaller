@@ -105,7 +105,7 @@
     color: #ffffff;
     background: #018294;
     visibility: hidden;
-    transition: all ease 0.1s;
+    transition: all ease 0.3s;
 }
 
 .product__item:hover .product__item-img-title {
