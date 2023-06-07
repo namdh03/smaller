@@ -24,10 +24,10 @@ export default {
                                 <a href="./product.html" class="navbar__link">Product</a>
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Pricing</a>
+                                <a href="./pricing.html" class="navbar__link">Pricing</a>
                             </li>
                             <li class="navbar__item">
-                                <a href="#!" class="navbar__link">Contact us</a>
+                                <a href="./contact.html" class="navbar__link">Contact us</a>
                             </li>
                             <li class="navbar__item">
                                 <a href="#!" class="navbar__link">Blog</a>

@@ -150,7 +150,7 @@ export default {
                         <navbar class="footer__navbar">
                             <ul class="footer__navbar-list">
                                 <li class="footer__navbar-item">
-                                    <a href="#!" class="footer__navbar-link">
+                                    <a href="./pricing.html" class="footer__navbar-link">
                                         Pricing
                                     </a>
                                 </li>
@@ -165,7 +165,7 @@ export default {
                                     </a>
                                 </li>
                                 <li class="footer__navbar-item">
-                                    <a href="#!" class="footer__navbar-link">
+                                    <a href="./contact.html" class="footer__navbar-link">
                                         Contact us
                                     </a>
                                 </li>
