@@ -94,7 +94,7 @@ export default {
     ],
 
     render() {
-        if (workComponent) {
+        if (workComponent && Object.keys(this.works).length > 0) {
             workComponent.innerHTML = html`
                 <div class="container">
                     <h2 class="section-heading">How Smaller works</h2>
@@ -103,8 +103,7 @@ export default {
                         eCommerce professionals.
                     </p>
                     <!-- Work list -->
-                    ${this.works &&
-                    html`<div class="work__list">${this.items()}</div>`}
+                    <div class="work__list">${this.items()}</div>
                 </div>
             `;
         }
@@ -144,27 +143,24 @@ export default {
                                 ${work.list.items.map(
                                     (item, index) =>
                                         html`
-                                            <li class="work-item__list-item">
-                                                <span
-                                                    ${work.list.strong &&
-                                                    `class="strong-text"`}
-                                                >
-                                                    ${item.replace(
-                                                        work.list.bestKeys[
-                                                            index
-                                                        ],
-                                                        html`
-                                                            <strong
-                                                                class="strong-text white-text"
-                                                            >
-                                                                ${work.list
-                                                                    .bestKeys[
-                                                                    index
-                                                                ]}
-                                                            </strong>
-                                                        `
-                                                    )}
-                                                </span>
+                                            <li
+                                                class="work-item__list-item ${work
+                                                    .list.strong &&
+                                                "strong-text"}"
+                                            >
+                                                ${item.replace(
+                                                    work.list.bestKeys[index],
+                                                    html`
+                                                        <strong
+                                                            class="strong-text white-text"
+                                                        >
+                                                            ${work.list
+                                                                .bestKeys[
+                                                                index
+                                                            ]}
+                                                        </strong>
+                                                    `
+                                                )}
                                             </li>
                                         `
                                 )}
