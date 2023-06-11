@@ -93,6 +93,7 @@
 }
 
 .product__item-img {
+    display: block;
     width: 100%;
 }
 
@@ -110,11 +111,13 @@
     color: #ffffff;
     background: var(--secondary-color);
     visibility: hidden;
-    transition: all ease 0.3s;
+    opacity: 0;
+    transition: all ease 0.25s;
 }
 
 .product__item:hover .product__item-img-title {
     visibility: visible;
+    opacity: 1;
 }
 
 .product__item-content {
