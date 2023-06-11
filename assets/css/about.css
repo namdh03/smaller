@@ -278,8 +278,9 @@
     height: 12px;
     border: 1px solid #018294;
     border-radius: 50px;
+    cursor: pointer;
 }
 
-.customer__footer-icon + .active {
+.customer__footer-icon.active {
     background: #018294;
 }
