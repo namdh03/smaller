@@ -138,6 +138,7 @@ button {
     color: var(--text-color);
 }
 
+.navbar__link--active,
 .footer__navbar-link:hover,
 .header-action__login:hover,
 .navbar__link:hover {
@@ -745,6 +746,10 @@ button {
     font-size: 1.7rem;
     line-height: 1;
     color: #676562;
+}
+
+.footer__navbar-link--active {
+    color: var(--secondary-color);
 }
 
 .footer__action {

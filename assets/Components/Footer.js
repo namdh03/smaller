@@ -218,7 +218,23 @@ export default {
         `;
     },
 
+    handleEvent() {
+        const footerNavLink = $$(".footer__navbar-link");
+        const currLocation = window.location.href;
+        Array.from(footerNavLink).forEach((item) => {
+            if (item.href === currLocation) {
+                if ($(".footer__navbar-link.footer__navbar-link--active")) {
+                    $(
+                        ".footer__navbar-link.footer__navbar-link--active"
+                    ).classList.remove("footer__navbar-link--active");
+                }
+                item.classList.add("footer__navbar-link--active");
+            }
+        });
+    },
+
     start() {
         this.render();
+        this.handleEvent();
     },
 };

@@ -77,7 +77,23 @@ export default {
         }
     },
 
+    handleEvent() {
+        const navLink = $$(".navbar__link");
+        const currLocation = window.location.href;
+        Array.from(navLink).forEach((item) => {
+            if (item.href === currLocation) {
+                if ($(".navbar__link.navbar__link--active")) {
+                    $(".navbar__link.navbar__link--active").classList.remove(
+                        "navbar__link--active"
+                    );
+                }
+                item.classList.add("navbar__link--active");
+            }
+        });
+    },
+
     start() {
         this.render();
+        this.handleEvent();
     },
 };
