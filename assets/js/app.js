@@ -17,7 +17,3 @@ Works.start();
 Benefits.start();
 Pricing.start();
 Footer.start();
-Blogs.start();
-About.start();
-Members.start();
-Customers.start();
