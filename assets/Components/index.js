@@ -5,3 +5,6 @@ export { default as Works } from "./Works.js";
 export { default as Benefits } from "./Benefits.js";
 export { default as Pricing } from "./Pricing.js";
 export { default as Footer } from "./Footer.js";
+export { default as About } from "./About.js";
+export { default as Members } from "./Members.js";
+export { default as Customers } from "./Customers.js";
